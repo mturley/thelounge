@@ -503,6 +503,16 @@ kbd {
 	width: 220px;
 }
 
+#sidebar .scrollable-area {
+	overflow-x: auto;
+	flex-grow: 1;
+	touch-action: pan-y;
+}
+
+#sidebar .logo-container {
+	text-align: center;
+}
+
 #sidebar .logo,
 #sidebar .logo-inverted {
 	height: 45px;
@@ -553,10 +563,6 @@ background on hover (unless active) */
 
 #sidebar .networks {
 	padding-top: 10px;
-	touch-action: pan-y;
-	flex-grow: 1;
-	overflow: auto;
-	overflow-x: hidden;
 }
 
 #sidebar .networks:empty {
